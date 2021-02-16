@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "target": "es2017",
+    "allowSyntheticDefaultImports": false,
+    "baseUrl": "./",
+    "paths": {
+      "components/*": ["app/components/*"],
+      "myMixins": ["app/styled/mixins.js"],
+      "styled/*": ["app/styled/*"]
+    }
+  },
+  "exclude": ["node_modules", "dist"]
+}
